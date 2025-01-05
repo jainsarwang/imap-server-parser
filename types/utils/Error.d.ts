@@ -1,0 +1,21 @@
+import { Session } from "../classes/Session";
+type ErrorCallback = (session: Session, tag: string, cb?: Function) => any;
+export declare const Errors: {
+    invalidSyntax: ErrorCallback;
+    noPermission: ErrorCallback;
+    inUse: ErrorCallback;
+    unknownCommand: ErrorCallback;
+    unknownError: ErrorCallback;
+    notExists: ErrorCallback;
+    alreadyExists: ErrorCallback;
+    serverError: ErrorCallback;
+    quotaExceeds: ErrorCallback;
+    notFound: ErrorCallback;
+    noMailboxSelected: ErrorCallback;
+    alreadySubscribed: ErrorCallback;
+    invalidMessageSet: ErrorCallback;
+    tryCreate: ErrorCallback;
+    noMessage: ErrorCallback;
+    invalidFlagMessageList: ErrorCallback;
+};
+export default Error;

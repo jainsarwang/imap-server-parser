@@ -1,0 +1,46 @@
+{
+	"name": "imap-server-parser",
+	"description": "A robust and lightweight IMAP server parser written in TypeScript, capable of handling over 25+ IMAP commands (as of now, will cover rest in future release). This package simplifies the parsing of IMAP protocol requests and responses, making it ideal for building IMAP servers or clients that integrate with providers such as `Gmail`, `Outlook` or any other.",
+	"version": "1.0.0",
+	"type": "commonjs",
+	"main": "lib/IMAP.js",
+	"scripts": {
+		"compile": "npx tsc"
+	},
+	"exports": {
+		".": {
+			"require": "./lib/IMAP.js",
+			"import": "./lib/IMAP.js",
+			"types": "./types/IMAP.d.ts"
+		}
+	},
+	"directories": {
+		"utils": "./lib/utils",
+		"class": "./lib/classes"
+	},
+	"author": {
+		"name": "Sarwang Jain",
+		"email": "jainsarwang@gmail.com",
+		"url": "https://github.com/jainsarwang"
+	},
+	"license": "ISC",
+	"icon": "",
+	"keywords": [
+		"imap",
+		"imap-server",
+		"email",
+		"email receive",
+		"smtp",
+		"server"
+	],
+	"repository": {
+		"url": "git+https://github.com/jainsarwang/imap-server-parser.git",
+		"type": "git"
+	},
+	"devDependencies": {
+		"ts-node": "^10.9.2",
+		"typescript": "^5.6.3"
+	},
+	"homepage": "",
+	"bugs": {}
+}
