@@ -51,7 +51,7 @@ Importing Imap Server Parser to your project.
 
 -   In TypeScript File:
     ```typescript
-    const { IMAP } from "imap-server-parser"
+    import { IMAP } from "imap-server-parser"
     ```
 
 ## Usage

@@ -1,7 +1,7 @@
 {
 	"name": "imap-server-parser",
 	"description": "A robust and lightweight IMAP server parser written in TypeScript, capable of handling over 25+ IMAP commands (as of now, will cover rest in future release). This package simplifies the parsing of IMAP protocol requests and responses, making it ideal for building IMAP servers or clients that integrate with providers such as `Gmail`, `Outlook` or any other.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"type": "commonjs",
 	"main": "lib/IMAP.js",
 	"scripts": {
